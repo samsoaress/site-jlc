@@ -1,0 +1,15 @@
+@media (max-width: 576px) { 
+ .logo{
+  position: fixed;
+  Top: 1rem;
+  Left: 2rem;
+ }
+
+ header .bar {
+  padding: 0.5rem;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+}
+
+}
