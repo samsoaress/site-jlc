@@ -1,62 +1,82 @@
-body{
+body {
   font-family: Inter;
   color: #fff;
+  font-size: 1rem;
 }
 
-header, .cor-caixa-1{
+hr {
+  min-width: -webkit-fill-available;
+  border-top: 0.3rem solid #956BAC;
+}
+
+.cor-caixa-1 {
   background: #1C1E30;
 }
-.cor-caixa-2{
+
+.container {
+  padding: 0 20px;
+}
+
+.cor-caixa-2 {
   background: #020223;
 }
 
-.cor-caixa-3{
+.cor-caixa-3 {
   background-color: #1C1E30;
- min-height: 35rem;
+  min-height: 35rem;
 
 }
-.cor-caixa-4{
+
+.cor-caixa-4 {
   background: #020223;
-  height: 70rem;
-
+  min-height: 70rem;
 }
-.cor-caixa-4 label{
+
+.cor-caixa-4 label {
   color: #956BAC;
 
 }
-.cor-caixa-4 h3{
-margin-bottom: 1.2rem;
+
+.cor-caixa-4 h3 {
+  margin-bottom: 1.2rem;
 
 }
-.cor-caixa-4 img{
+
+.cor-caixa-4 img {
   margin-top: 4rem;
   margin-bottom: 2.4rem;
 
 }
-.cor-caixa-5{
+
+.cor-caixa-5 {
   background: #1C1E30;
   min-height: 50rem;
 }
-.cor-caixa-5 label{
+
+.cor-caixa-5 label {
   color: #956BAC;
 }
-.cor-caixa-6{
+
+.cor-caixa-6 {
   background: #020223;
   height: 30rem;
 }
-.cor-caixa-6 h1{
+
+.cor-caixa-6 h1 {
   margin-bottom: 4.2rem;
   text-align: center;
 }
-.cor-caixa-7{
+
+.cor-caixa-7 {
   background: #1C1E30;
 
 }
+
 .cor-caixa-3 label {
   color: #956BAC;
 }
 
-.btn-contato{
+.btn-contato {
   border-color: #956BAC;
   border-radius: 0;
   color: #fff;
@@ -67,12 +87,22 @@ margin-bottom: 1.2rem;
   color: #fff;
 }
 
+header {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0.9; */
+  background-color: #020223;
+}
+
 header ul {
   display: flex;
   align-items: center;
 }
 
-header ul li{
+header ul li {
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
@@ -86,7 +116,7 @@ header ul.opcao-menu li a {
   width: fit-content;
   list-style: none;
   text-decoration: none;
- 
+
 }
 
 header ul li:not(:last-child) a:hover {
@@ -99,15 +129,26 @@ header .bar {
 
 header ul li i {
   font-size: 1.4rem;
- 
+
 }
 
-header.logo{
+header.logo {
   width: 168px;
   height: 66px;
 }
 
-.home h5{
+header .btn-contato {
+  border-color: #956BAC;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.home h5 {
   margin-top: 3rem;
   margin-bottom: 0.9rem;
   font-size: 1rem;
@@ -122,7 +163,7 @@ header.logo{
   margin-bottom: 2.4rem;
 }
 
-.home button, .btn-contato{
+.home button, .btn-contato {
   border-color: #956BAC;
   border-radius: 0;
   color: #fff;
@@ -133,43 +174,27 @@ header.logo{
   margin-bottom: 2.4rem;
 }
 
-header .btn-contato{
-  border-color: #956BAC;
-  border-radius: 0;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1rem;
-  padding: 0.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2.4rem;
-}
-
-hr {
-  min-width: -webkit-fill-available;
-  border-top: 0.3rem solid #956BAC;
-}
-
-.home h1{
+.home h1 {
   font-weight: 600;
   font-size: 4rem;
   margin-bottom: 2.3rem;
-  
+
 }
 
-.home .cubo-grande{
-  width: 541px;
-  height: 525px;
+.home .cubo-grande {
+  width: 33.813rem;
+  height: 32.813rem;
   position: absolute;
   top: 0rem;
-  left: 6rem;
+  left: 3rem;
   z-index: 0;
 }
 
-.home > div {
- position:  relative;
+.home>div {
+  position: relative;
 }
 
-.caixa-central{
+.caixa-central {
   border: 1px solid #956BAC;
 }
 
@@ -177,13 +202,14 @@ hr {
   padding-bottom: 2.25rem;
 }
 
-.feature > div > div {
+.feature>div>div {
   background-color: #020223;
   height: 17rem;
   padding: 1rem;
   position: relative;
 }
-.feature > div > div > div {
+
+.feature>div>div>div {
   height: 5rem;
 }
 
@@ -197,8 +223,8 @@ hr {
   bottom: -2.25rem;
 }
 
-.feature h3{
-  font-size:  1.688rem;
+.feature h3 {
+  font-size: 1.688rem;
 }
 
 .servicos {
@@ -207,24 +233,25 @@ hr {
   padding-bottom: 1rem;
 }
 
-.servicos h2{
-  font-size:  2rem;
+.servicos h2 {
+  font-size: 2rem;
   font-weight: 700;
   font-size: 2rem;
 }
-.servicos label{
-  font-size:  0.938rem;  
+
+.servicos label {
+  font-size: 0.938rem;
   color: #956BAC;
 
 }
 
-.servicos hr{
+.servicos hr {
   width: 4.9rem;
   color: #956BAC;
   border: solid 2px;
 }
 
-.servicos > div > div > div{
+.servicos>div>div>div {
   background-color: #1C1E30;
   padding: 1rem 2rem;
   border-bottom: 5px solid #D9D9D9;
@@ -232,56 +259,52 @@ hr {
   margin-bottom: 4rem;
 }
 
-.servicos  > div > div > div:hover {
-    background-color:#723D90;  
+.servicos>div>div>div:hover {
+  background-color: #723D90;
 }
 
-.servicos  > div > div > div:hover path{
-  stroke: #fff; 
+.servicos>div>div>div:hover path {
+  stroke: #fff;
 }
 
-.servicos > div > div > div > div{
+.servicos>div>div>div>div {
   height: 5.25rem;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.divisao { 
+.divisao {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+
 }
 
-.divisao div{
+.divisao div {
   border: 1px solid #956BAC;
   height: 5.125rem;
   padding: 0px !important;
 }
 
-
-.customers > div:nth-child(4) > div {
+.customers>div:nth-child(4)>div {
   border-left: 2px solid #956BAC;
   border-right: 2px solid #956BAC;
 }
 
-.customers > div > div{
-  padding: 10px;
-}
 .customers h2 {
   font-weight: 700;
   font-size: 2rem;
 }
+
 .buttonPage {
   text-align: center;
 }
-.buttonPage > div > div {
-  margin-top: 4rem;
-}
+
+
 .buttonPage h1 {
-font-size: 3rem;
-font-weight: 700;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .depoimentos h2 {
@@ -292,44 +315,55 @@ font-weight: 700;
 .card {
   background: #101017;
   border-color: #777777;
-  margin-top: 6rem;
+
+  height: 21rem;
+
+
+
 }
+
 .card p {
   color: #fff;
-  
+  font-size: 0.9rem;
+
 }
-.none   {
+
+.none {
   padding-top: 2.3rem;
   text-align: center;
   color: #fff;
 }
 
-
-
-.ratings i{
+.ratings i {
   color: #956BAC;
   padding-bottom: inherit;
   padding-top: inherit;
 }
+
 .depoimentossvg {
   padding-bottom: inherit;
   padding-top: inherit;
 }
-.user-image{
+
+.user-image {
   text-align: center;
   margin-bottom: -4rem;
+  margin-top: 2rem;
 }
 
-.contatos{
+.carousel-indicators li {
+  background-color: #723D90;
+}
+
+.contatos {
   height: 20.875rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.contatos > div > div:nth-child(2) {
+.contatos>div>div:nth-child(2) {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
 }
-
