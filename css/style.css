@@ -1,3 +1,9 @@
+html {
+  font-family: Inter;
+  color: #fff;
+  font-size: 16pxs !important;
+}
+
 body {
   font-family: Inter;
   color: #fff;
@@ -7,6 +13,11 @@ body {
 hr {
   min-width: -webkit-fill-available;
   border-top: 0.3rem solid #956BAC;
+}
+
+.cor-caixa-0 {
+  background-color: #020223;
+  height: 100vh;
 }
 
 .cor-caixa-1 {
@@ -24,7 +35,6 @@ hr {
 .cor-caixa-3 {
   background-color: #1C1E30;
   min-height: 35rem;
-
 }
 
 .cor-caixa-4 {
@@ -167,7 +177,7 @@ header .btn-contato {
   border-color: #956BAC;
   border-radius: 0;
   color: #fff;
-  font-weight: 600;
+
   font-size: 1rem;
   padding: 1rem;
   color: #956BAC;
@@ -182,16 +192,24 @@ header .btn-contato {
 }
 
 .home .cubo-grande {
-  width: 33.813rem;
-  height: 32.813rem;
+  width: 100%;
+  height: auto;
   position: absolute;
-  top: 0rem;
-  left: 3rem;
   z-index: 0;
 }
 
 .home>div {
   position: relative;
+}
+
+.menus1 {
+  text-align: center;
+  font-size: 1.9rem;
+  position: absolute;
+}
+
+.menus2 {
+  margin-top: 5rem;
 }
 
 .caixa-central {
@@ -299,12 +317,14 @@ header .btn-contato {
 
 .buttonPage {
   text-align: center;
+
 }
 
 
 .buttonPage h1 {
   font-size: 3rem;
   font-weight: 700;
+  margin-top: 6rem;
 }
 
 .depoimentos h2 {
@@ -315,10 +335,6 @@ header .btn-contato {
 .card {
   background: #101017;
   border-color: #777777;
-
-  height: 21rem;
-
-
 
 }
 
