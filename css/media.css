@@ -18,5 +18,16 @@
     margin-bottom: 2.3rem;
   }
 
+  .servicos>div>div>div {
+    background-color: #1C1E30;
+    padding: 1rem 2rem;
+    border-bottom: 5px solid #1C1E30;
+    height: 16rem;
+    margin-bottom: 4rem;
+  }
+
+  .servicos>div>div>div:hover {
+    background-color: #1C1E30;
+  }
 
 }

@@ -206,6 +206,8 @@ header .btn-contato {
   text-align: center;
   font-size: 1.9rem;
   position: absolute;
+  transition: transform 300ms;
+  transform: translateY(0);
 }
 
 .menus2 {
@@ -283,6 +285,10 @@ header .btn-contato {
 
 .servicos>div>div>div:hover path {
   stroke: #fff;
+}
+
+.svg21 {
+  color: white;
 }
 
 .servicos>div>div>div>div {
