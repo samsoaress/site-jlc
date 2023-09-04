@@ -4,17 +4,21 @@
 	margin: 30px auto 60px;
 	padding: 0 80px;
 }
+
 .carousel .carousel-item {
 	text-align: center;
 	overflow: hidden;
 }
+
 .carousel .carousel-item h4 {
 	font-family: 'Varela Round', sans-serif;
 }
+
 .carousel .carousel-item img {
 	max-width: 100%;
 	display: inline-block;
 }
+
 .carousel .carousel-item .btn {
 	border-radius: 0;
 	font-size: 12px;
@@ -25,14 +29,17 @@
 	padding: 6px 15px;
 	margin-top: 5px;
 }
+
 .carousel .carousel-item .btn:hover {
 	background: #8c5bff;
 }
+
 .carousel .carousel-item .btn i {
 	font-size: 14px;
 	font-weight: bold;
 	margin-left: 5px;
 }
+
 .carousel .thumb-wrapper {
 	margin: 5px;
 	text-align: left;
@@ -43,18 +50,21 @@
 	align-items: center;
 	justify-content: space-around;
 }
+
 .carousel .thumb-content {
 	padding: 15px;
 	font-size: 13px;
 }
+
 .carousel-control-prev, .carousel-control-next {
 	height: 44px;
 	width: 44px;
-	background: none;	
+	background: none;
 	margin: auto 0;
 	border-radius: 50%;
-	border: 3px solid rgba(0, 0, 0, 0.8);
+	border: 3px solid rgba(114, 61, 144);
 }
+
 .carousel-control-prev i, .carousel-control-next i {
 	font-size: 36px;
 	position: absolute;
@@ -64,19 +74,23 @@
 	z-index: 5;
 	left: 0;
 	right: 0;
-	color: rgba(0, 0, 0, 0.8);
+	color: rgba(248, 244, 248, 0.8);
 	text-shadow: none;
 	font-weight: bold;
 }
+
 .carousel-control-prev i {
 	margin-left: -3px;
 }
+
 .carousel-control-next i {
 	margin-right: -3px;
 }
+
 .carousel-indicators {
 	bottom: -50px;
 }
+
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 10px;
 	height: 10px;
@@ -84,9 +98,11 @@
 	margin: 4px;
 	border: none;
 }
-.carousel-indicators li {	
-	background: #ababab;
+
+.carousel-indicators li {
+	background: #9c0505;
 }
-.carousel-indicators li.active {	
-	background: #555;
+
+.carousel-indicators li.active {
+	background: #f1eeee;
 }
