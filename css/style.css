@@ -126,7 +126,10 @@ header.rolagem {
 
 header ul {
   display: flex;
+  text-decoration: none;
+  list-style: none;
   align-items: center;
+  justify-content: flex-end;
 }
 
 header ul li {
