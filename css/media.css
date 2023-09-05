@@ -7,14 +7,50 @@
   }
 }
 
+@media (max-width: 768px) {
+
+  .logo {
+    position: fixed;
+    Top: 1rem;
+    Left: 2rem;
+  }
+  
+  header .bar {
+    padding: 0.5rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: 0.9;
+    background-color: #020223;
+    padding: 2.5rem 0;
+ }
+ .cor-caixa-1{
+  padding-top: 4rem;
+}
+}
+
 @media (min-width: 768px) {
   .cor-caixa-1{
     padding-top: 2rem;
   }
+
+
 }
 
 
 @media (min-width: 576px) {
+
+  home h5 {
+    margin-top: 3rem;
+  }
 
   .cor-caixa-1{
     padding-top: 4rem;
@@ -54,31 +90,6 @@
   }
 }
 
-@media (max-width: 768px) {
 
-  .logo {
-    position: fixed;
-    Top: 1rem;
-    Left: 2rem;
-  }
-  
-  header .bar {
-    padding: 0.5rem;
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-  }
-
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    opacity: 0.9;
-    background-color: #020223;
-    padding: 2.5rem 0;
- }
-}
 
 
