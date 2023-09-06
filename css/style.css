@@ -38,7 +38,7 @@ body .caixa-menu-celular {
   background: #020223;
 }
 
-.cor-caixa-2 svg{
+.cor-caixa-2 svg {
   fill: none;
 }
 
@@ -406,6 +406,6 @@ header .btn-contato {
   flex-direction: row-reverse;
 }
 
-.carousel{
-    padding: 0 3rem;
+.carousel {
+  padding: 0 3rem;
 }
