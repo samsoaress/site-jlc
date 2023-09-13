@@ -88,4 +88,17 @@
     background-color: #1C1E30;
   }
 
+  .contatos > div > div > div > div > h5{
+    text-align: center;
+  }
+  
+  .contatos > div > div > div > div {
+    text-align: center;
+  }
+
+  .contatos>div>div:nth-child(2){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }

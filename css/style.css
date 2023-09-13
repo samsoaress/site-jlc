@@ -408,3 +408,8 @@ header .btn-contato {
 .carousel {
   padding: 0 3rem;
 }
+
+.contatos > div > div > div > div > span{
+  margin-right: 0.5rem;
+}
+.ove

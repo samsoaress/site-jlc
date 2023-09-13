@@ -3,11 +3,12 @@ function openMenu() {
   var body = document.getElementsByTagName("body");
   if(element.classList.contains("d-none")){
     element.classList.remove("d-none");
-    body.classList.remove("");
+    body.classList.add("overflow-hidden");
   }else{
     element.classList.add("d-none");
-    body.classList.remove("");
+    body.classList.remove("overflow-hidden");
   } 
+
 
 
 
